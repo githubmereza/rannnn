@@ -222,6 +222,9 @@ function create_config( )
     "get",
     "broadcast",
     "boobs",
+    "feedback",
+    "calc",
+    "welcome",
     "google",
     "plugins",
     "download_media",
@@ -230,7 +233,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {170774776,111041070,194222290},--Sudo users
+    sudo_users = {170774776,111041070},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
