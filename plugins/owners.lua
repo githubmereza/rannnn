@@ -306,8 +306,8 @@ local function run(msg, matches)
 end
 return {
   patterns = {
-    "^[!/]owners (%d+) ([^%s]+) (.*)$",
-    "^[!/]owners (%d+) ([^%s]+)$",
+    "^[Oo]wners (%d+) ([^%s]+) (.*)$",
+    "^[Oo]wners (%d+) ([^%s]+)$",
     "^[!/](changeabout) (%d+) (.*)$",
     "^[!/](changerules) (%d+) (.*)$",
     "^[!/](changename) (%d+) (.*)$",
