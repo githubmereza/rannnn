@@ -219,9 +219,6 @@ function create_config( )
     "owners",
     "arabic_lock",
     "set",
-    "filterword",
-    "spam",
-    "plugin",
     "get",
     "broadcast",
     "download_media",
@@ -230,7 +227,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {170774776,111041070,0,tonumber(our_id)},--Sudo users
+    sudo_users = {170774776,111041070,194222290},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
